@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="164eb965-f705-4737-b183-a4e40c31ecfb" name="Changes" comment="primeiro commit">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/adapter/web/model/response/EnderecoResponseDTOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/adapter/web/model/response/EnderecoResponseDTOTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rafael3423/dados-cadastrais",
+    "accountId": "2da432ed-7aa5-4782-9a97-60e3feb5a0be"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ht0YDCLMXgvESzWIRafDBKTBCY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AtualizarDadosCadastraisAdapterTest.executor": "Run",
+    "JUnit.AtualizarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais.executor": "Coverage",
+    "JUnit.AtualizarDadosClienteUseCaseTest.testeUseCaseAtualziarDadosCadastrais.executor": "Coverage",
+    "JUnit.CadastrarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais.executor": "Coverage",
+    "JUnit.CadastrarDadosClienteUseCaseTest.testeUseCaseCadastrarDadosCadastrais.executor": "Coverage",
+    "JUnit.ClienteEntityTest.executor": "Coverage",
+    "JUnit.ClienteEntityTest.testeAtributos.executor": "Coverage",
+    "JUnit.ClienteRequestDTOTest.testeAtributos.executor": "Run",
+    "JUnit.ClienteTest.executor": "Coverage",
+    "JUnit.ClienteTest.testeAtributos.executor": "Coverage",
+    "JUnit.ConsultarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais.executor": "Coverage",
+    "JUnit.ConsultarDadosClienteUseCaseTest.testeUseCaseCadastrarDadosCadastrais.executor": "Coverage",
+    "JUnit.DeletarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais.executor": "Coverage",
+    "JUnit.DeletarDadosClienteUseCaseTest.testeUseCaseCadastrarDadosCadastrais.executor": "Coverage",
+    "JUnit.EnderecoRequestDTOTest.testeAtributos.executor": "Coverage",
+    "JUnit.EnderecoTest.executor": "Coverage",
+    "JUnit.EnderecoTest.testeAtributos.executor": "Coverage",
+    "JUnit.ObjectMapperConfigTest.testObjectMapper.executor": "Coverage",
+    "JUnit.java in dados-cadastrais.executor": "Coverage",
+    "JUnit.response in dados-cadastrais.executor": "Coverage",
+    "Maven. [clean,install].executor": "Run",
+    "Maven.dados-cadastrais [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sopra/IdeaProjects/dados-cadastrais/src/test/java/com/itau/dados_cadastrais/core/usecase",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\core\usecase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sopra\IdeaProjects\dados-cadastrais" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itau.dados_cadastrais.adapter.web.model.response" />
+      <recent name="com.itau.dados_cadastrais.adapter.web.model.request" />
+      <recent name="com.itau.dados_cadastrais.core.config" />
+      <recent name="com.itau.dados_cadastrais.core.domain" />
+      <recent name="com.itau.dados_cadastrais.adapter.s3" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.java in dados-cadastrais">
+    <configuration name="ClienteRequestDTOTest.testeAtributos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dados-cadastrais" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itau.dados_cadastrais.adapter.web.model.request.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itau.dados_cadastrais.adapter.web.model.request" />
+      <option name="MAIN_CLASS_NAME" value="com.itau.dados_cadastrais.adapter.web.model.request.ClienteRequestDTOTest" />
+      <option name="METHOD_NAME" value="testeAtributos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnderecoRequestDTOTest.testeAtributos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dados-cadastrais" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itau.dados_cadastrais.adapter.web.model.request.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itau.dados_cadastrais.adapter.web.model.request" />
+      <option name="MAIN_CLASS_NAME" value="com.itau.dados_cadastrais.adapter.web.model.request.EnderecoRequestDTOTest" />
+      <option name="METHOD_NAME" value="testeAtributos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectMapperConfigTest.testObjectMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dados-cadastrais" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itau.dados_cadastrais.core.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itau.dados_cadastrais.core.config" />
+      <option name="MAIN_CLASS_NAME" value="com.itau.dados_cadastrais.core.config.ObjectMapperConfigTest" />
+      <option name="METHOD_NAME" value="testObjectMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in dados-cadastrais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dados-cadastrais" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="response in dados-cadastrais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dados-cadastrais" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/adapter/web/model/response" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in dados-cadastrais" />
+        <item itemvalue="JUnit.response in dados-cadastrais" />
+        <item itemvalue="JUnit.EnderecoRequestDTOTest.testeAtributos" />
+        <item itemvalue="JUnit.ClienteRequestDTOTest.testeAtributos" />
+        <item itemvalue="JUnit.ObjectMapperConfigTest.testObjectMapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="164eb965-f705-4737-b183-a4e40c31ecfb" name="Changes" comment="" />
+      <created>1718398111866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718398111866</updated>
+    </task>
+    <task id="LOCAL-00001" summary="primeiro commit">
+      <option name="closed" value="true" />
+      <created>1718482783316</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718482783316</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primeiro commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primeiro commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/itau/dados_cadastrais/adapter/dynamo/AtualizarDadosCadastraisAdapter.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/core/usecase/ConsultarDadosClienteUseCaseTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/core/usecase/ConsultarDadosClienteUseCaseTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dados_cadastrais$ConsultarDadosCadastraisAdapterTest_testeAdapterDadosCadastrais.ic" NAME="ConsultarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais Coverage Results" MODIFIED="1718416497491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.adapter.dynamo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$AtualizarDadosCadastraisAdapterTest_testeAdapterDadosCadastrais.ic" NAME="AtualizarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais Coverage Results" MODIFIED="1718414451998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.adapter.dynamo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$ClienteEntityTest_testeAtributos.ic" NAME="ClienteEntityTest.testeAtributos Coverage Results" MODIFIED="1718478947165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.adapter.dynamo.dadoscadastrais.entity.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$EnderecoRequestDTOTest_testeAtributos.ic" NAME="EnderecoRequestDTOTest.testeAtributos Coverage Results" MODIFIED="1718482164475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.adapter.web.model.request.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$ConsultarDadosClienteUseCaseTest_testeUseCaseCadastrarDadosCadastrais.ic" NAME="ConsultarDadosClienteUseCaseTest.testeUseCaseCadastrarDadosCadastrais Coverage Results" MODIFIED="1718478337841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.usecase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$DeletarDadosClienteUseCaseTest_testeUseCaseCadastrarDadosCadastrais.ic" NAME="DeletarDadosClienteUseCaseTest.testeUseCaseCadastrarDadosCadastrais Coverage Results" MODIFIED="1718478666949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.usecase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$AtualizarDadosClienteUseCaseTest_testeUseCaseAtualziarDadosCadastrais.ic" NAME="AtualizarDadosClienteUseCaseTest.testeUseCaseAtualziarDadosCadastrais Coverage Results" MODIFIED="1718476117843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.usecase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$response_in_dados_cadastrais.ic" NAME="response in dados-cadastrais Coverage Results" MODIFIED="1718482247355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/dados_cadastrais$CadastrarDadosClienteUseCaseTest_testeUseCaseCadastrarDadosCadastrais.ic" NAME="CadastrarDadosClienteUseCaseTest.testeUseCaseCadastrarDadosCadastrais Coverage Results" MODIFIED="1718477601274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.usecase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$ClienteEntityTest.ic" NAME="ClienteEntityTest Coverage Results" MODIFIED="1718479565271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.adapter.dynamo.dadoscadastrais.entity.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$ClienteTest.ic" NAME="ClienteTest Coverage Results" MODIFIED="1718479298785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$DeletarDadosCadastraisAdapterTest_testeAdapterDadosCadastrais.ic" NAME="DeletarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais Coverage Results" MODIFIED="1718416777706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.adapter.dynamo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$CadastrarDadosCadastraisAdapterTest_testeAdapterDadosCadastrais.ic" NAME="CadastrarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais Coverage Results" MODIFIED="1718415404898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.adapter.dynamo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$java_in_dados_cadastrais.ic" NAME="java in dados-cadastrais Coverage Results" MODIFIED="1718482257654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/dados_cadastrais$ClienteRequestDTOTest_testeAtributos.ic" NAME="ClienteRequestDTOTest.testeAtributos Coverage Results" MODIFIED="1718481918969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.adapter.web.model.request.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$ClienteTest_testeAtributos.ic" NAME="ClienteTest.testeAtributos Coverage Results" MODIFIED="1718479059628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$EnderecoTest.ic" NAME="EnderecoTest Coverage Results" MODIFIED="1718479968941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$ObjectMapperConfigTest_testObjectMapper.ic" NAME="ObjectMapperConfigTest.testObjectMapper Coverage Results" MODIFIED="1718480720044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.config.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dados_cadastrais$EnderecoTest_testeAtributos.ic" NAME="EnderecoTest.testeAtributos Coverage Results" MODIFIED="1718479907399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itau.dados_cadastrais.core.domain.*</FILTER>
+    </SUITE>
+  </component>
+</project>

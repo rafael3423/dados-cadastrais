@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.itau.dados_cadastrais.adapter.dynamo.dadoscadastrais.entity.ClienteEntityTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.568 s <<< FAILURE! -- in com.itau.dados_cadastrais.adapter.dynamo.dadoscadastrais.entity.ClienteEntityTest
+com.itau.dados_cadastrais.adapter.dynamo.dadoscadastrais.entity.ClienteEntityTest.testeAtributos -- Time elapsed: 1.532 s <<< ERROR!
+pl.pojo.tester.internal.GetOrSetValueException: 
+Unable to get or set value for field 'modifiers' in class 'class java.lang.reflect.Field'.
+ Cause message: modifiers
+	at pl.pojo.tester.internal.utils.FieldUtils.makeModifiable(FieldUtils.java:96)
+	at pl.pojo.tester.internal.utils.FieldUtils.getValue(FieldUtils.java:53)
+	at pl.pojo.tester.internal.assertion.setter.SetterAssertions.willSetValueOnField(SetterAssertions.java:26)
+	at pl.pojo.tester.internal.tester.SetterTester.testSetterAndGetter(SetterTester.java:42)
+	at pl.pojo.tester.internal.tester.SetterTester.lambda$test$0(SetterTester.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at pl.pojo.tester.internal.tester.SetterTester.test(SetterTester.java:33)
+	at pl.pojo.tester.api.assertion.SingleClassAssertion.lambda$runAssertions$0(SingleClassAssertion.java:28)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at pl.pojo.tester.api.assertion.SingleClassAssertion.runAssertions(SingleClassAssertion.java:28)
+	at pl.pojo.tester.api.assertion.AbstractAssertion.areWellImplemented(AbstractAssertion.java:129)
+	at com.itau.dados_cadastrais.adapter.dynamo.dadoscadastrais.entity.ClienteEntityTest.testeAtributos(ClienteEntityTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.NoSuchFieldException: modifiers
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2610)
+	at pl.pojo.tester.internal.utils.FieldUtils.makeModifiable(FieldUtils.java:90)
+	... 14 more
+

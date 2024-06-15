@@ -1,0 +1,17 @@
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\dadoscadastrais\repository\DadosCadastraisRepositoryTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\exception\ConsultarDadosCadastraisAdapterExceptionTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\mapper\CadastrarDadosCadastraisMapperTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\dadoscadastrais\entity\ClienteEntityTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\mapper\ConsultarDadosCadastraisMapperTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\exception\DynamoAdapterExceptionTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\DTOUtils.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\web\handler\ControllerExceptionHandlerTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\exception\CadastrarDadosCadastraisAdapterExceptionTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\AtualizarDadosCadastraisAdapterTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\infraestrutura\config\DynamoDbConfigTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\mapper\AtualizarDadosCadastraisMapperTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\exception\DeletarDadosCadastraisAdapterExceptionTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\exception\AtualizarDadosCadastraisAdapterExceptionTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\exception\DadosNaoEncontradosExceptionTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\infraestrutura\config\LocalConfigTest.java
+C:\Users\sopra\IdeaProjects\dados-cadastrais\src\test\java\com\itau\dados_cadastrais\adapter\dynamo\mapper\DeletarDadosCadastraisMapperTest.java

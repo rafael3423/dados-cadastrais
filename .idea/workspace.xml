@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="164eb965-f705-4737-b183-a4e40c31ecfb" name="Changes" comment="primeiro commit">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/adapter/web/model/response/EnderecoResponseDTOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/adapter/web/model/response/EnderecoResponseDTOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/dynamo/mapper/AtualizarDadosCadastraisMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/dynamo/mapper/AtualizarDadosCadastraisMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/dynamo/mapper/CadastrarDadosCadastraisMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/dynamo/mapper/CadastrarDadosCadastraisMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/dynamo/mapper/ConsultarDadosCadastraisMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/dynamo/mapper/ConsultarDadosCadastraisMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/dynamo/mapper/DeletarDadosCadastraisMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/dynamo/mapper/DeletarDadosCadastraisMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/web/mapper/ClienteMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/itau/dados_cadastrais/adapter/web/mapper/ClienteMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +28,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/dados-cadastrais" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rafael3423/dados-cadastrais",
-    "accountId": "2da432ed-7aa5-4782-9a97-60e3feb5a0be"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rafael3423/dados-cadastrais&quot;,
+    &quot;accountId&quot;: &quot;2da432ed-7aa5-4782-9a97-60e3feb5a0be&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -66,12 +76,13 @@
     "JUnit.EnderecoTest.executor": "Coverage",
     "JUnit.EnderecoTest.testeAtributos.executor": "Coverage",
     "JUnit.ObjectMapperConfigTest.testObjectMapper.executor": "Coverage",
+    "JUnit.dados_cadastrais in dados-cadastrais.executor": "Run",
     "JUnit.java in dados-cadastrais.executor": "Coverage",
     "JUnit.response in dados-cadastrais.executor": "Coverage",
     "Maven. [clean,install].executor": "Run",
     "Maven.dados-cadastrais [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/sopra/IdeaProjects/dados-cadastrais/src/test/java/com/itau/dados_cadastrais/core/usecase",
@@ -179,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.java in dados-cadastrais" />
         <item itemvalue="JUnit.response in dados-cadastrais" />
+        <item itemvalue="JUnit.ObjectMapperConfigTest.testObjectMapper" />
+        <item itemvalue="JUnit.java in dados-cadastrais" />
         <item itemvalue="JUnit.EnderecoRequestDTOTest.testeAtributos" />
         <item itemvalue="JUnit.ClienteRequestDTOTest.testeAtributos" />
-        <item itemvalue="JUnit.ObjectMapperConfigTest.testObjectMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -210,27 +221,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro commit" />
     <option name="LAST_COMMIT_MESSAGE" value="primeiro commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/itau/dados_cadastrais/adapter/dynamo/AtualizarDadosCadastraisAdapter.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/core/usecase/ConsultarDadosClienteUseCaseTest.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/itau/dados_cadastrais/core/usecase/ConsultarDadosClienteUseCaseTest.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dados_cadastrais$ConsultarDadosCadastraisAdapterTest_testeAdapterDadosCadastrais.ic" NAME="ConsultarDadosCadastraisAdapterTest.testeAdapterDadosCadastrais Coverage Results" MODIFIED="1718416497491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

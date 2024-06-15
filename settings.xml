@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings
+        xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd"
+        xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <servers>
+        <server>
+            <id>painel.repodep</id>
+            <username>USER</username>
+            <password>PASS</password>
+        </server>
+        <server>
+            <id>es8-compopen</id>
+            <username>USER</username>
+            <password>PASS</password>
+        </server>
+        <server>
+            <username>USER</username>
+            <password>PASS</password>
+            <id>artifactory</id>
+        </server>
+        <server>
+            <username>USER</username>
+            <password>PASS</password>
+            <id>maven-thirdparty</id>
+        </server>
+        <server>
+            <id>maven-devel</id>
+            <username>CPS559U</username>
+            <password>APAP7135y5qFdg6t5CqqECYg33u</password>
+        </server>
+
+        <server>
+            <id>maven-remotes</id>
+            <username>CPS559U</username>
+            <password>APAP7135y5qFdg6t5CqqECYg33u</password>
+        </server>
+
+        <server>
+            <username>CPS559U</username>
+            <password>APAP7135y5qFdg6t5CqqECYg33u</password>
+            <id>itau.mbi.esb.ea4</id>
+        </server>
+
+        <server>
+            <username>cps387u</username>
+            <password>AKCp5btpEznYYLoxCD6P58Gbsf9wGKT8DEpLZgv3qUisryGSz3M91r9kTj99KtydBdRyEB8ue</password>
+            <id>com.itau.ek4.jws</id>
+        </server>
+    </servers>
+
+    <profiles>
+        <!-- Profile para desligar o repo central do maven -->
+        <profile>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo.maven.apache.org/maven2/</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>central-mirror</id>
+                    <url>http://repo1.maven.org/maven2</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+
+                <pluginRepository>
+                    <id>central</id>
+                    <url>https://repo.maven.apache.org/maven2</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+                <pluginRepository>
+                    <id>central-mirro</id>
+                    <url>http://repo1.maven.org/maven2</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+            <id>central</id>
+        </profile>
+
+        <!-- Repositorio do Artifactory de Dependencias -->
+        <profile>
+            <id>maven-devel</id>
+            <repositories>
+                <repository>
+                    <id>maven-devel-repo</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-devel</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>maven-devel-plugins</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-devel</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+
+        <profile>
+            <id>itau-ea3-maven-snapshot</id>
+            <repositories>
+                <repository>
+                    <id>itau-ea3-maven-snapshot</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-ea3-maven-snapshot</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>itau-ea3-maven-snapshot</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-ea3-maven-snapshot</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+
+        <!-- Repositorio Componentes do ESB -->
+        <profile>
+            <repositories>
+                <repository>
+                    <id>itau.mbi.esb.ea4</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-ea4-orquestracao-maven</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>itau.mbi.esb.ea4</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-ea4-orquestracao-maven</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <properties>
+                <esb.upload.maven.url>
+                    https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-ea4-orquestracao-maven/
+                </esb.upload.maven.url>
+            </properties>
+            <id>itau.mbi.esb.ea4</id>
+        </profile>
+
+        <!-- Repositorio Componente JWS -->
+        <profile>
+            <repositories>
+                <repository>
+                    <id>com.itau.ek4.jws</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-ek4-cartoes-maven</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>com.itau.ek4.jws</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-ek4-cartoes-maven</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <id>com.itau.ek4.jws</id>
+        </profile>
+
+        <profile>
+            <repositories>
+                <repository>
+                    <id>itau-comp-open-maven</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-comp-open-maven</url>
+                </repository>
+                <repository>
+                    <id>itau-es8-tecnologia-maven</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-es8-tecnologia-maven</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>itau-es8-tecnologia-maven</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-es8-tecnologia-maven</url>
+                </pluginRepository>
+                <pluginRepository>
+                    <id>itau-comp-open-maven</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-comp-open-maven</url>
+                </pluginRepository>
+            </pluginRepositories>
+
+            <id>es8-comp-open</id>
+        </profile>
+
+        <profile>
+            <repositories>
+                <repository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-remotes</url>
+                </repository>
+                <repository>
+                    <snapshots/>
+                    <id>snapshots</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-se-maven-snapshot</url>
+                </repository>
+                <repository>
+                    <snapshots/>
+                    <id>release</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-se-maven-release</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-remotes</url>
+                </pluginRepository>
+                <pluginRepository>
+                    <snapshots/>
+                    <id>snapshots</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-se-maven-snapshot</url>
+                </pluginRepository>
+                <pluginRepository>
+                    <snapshots/>
+                    <id>release</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-se-maven-release</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <id>maven-remotes</id>
+        </profile>
+
+
+        <profile>
+            <id>itau-ih2-maven-release</id>
+            <repositories>
+                <repository>
+                    <id>itau-ih2-maven-release</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf/artifactory/itau-ih2-maven-release</url>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>itau-ih2-maven-release</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf/artifactory/itau-ih2-maven-release</url>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+        <profile>
+            <repositories>
+
+
+                <repository>
+                    <id>itau-nf2-maven-snapshot</id>
+                    <name>maven-remotes</name>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-nf2-maven-snapshot</url>
+                </repository>
+
+
+                <repository>
+                    <id>itau-ph5-gradle-release</id>
+                    <name>itau-ph5-gradle-release</name>
+                    <url>https://artifactory.prod.aws.cloud.ihf/artifactory/itau-ph5-gradle-release</url>
+                </repository>
+
+
+                <repository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <name>maven-devel</name>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-devel</url>
+                </repository>
+                <repository>
+                    <snapshots/>
+                    <id>snapshots</id>
+                    <name>maven-devel</name>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-devel</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+
+                <pluginRepository>
+                    <id>itau-nf2-maven-snapshot</id>
+                    <name>itau-nf2-maven-snapshot</name>
+                    <url>https://artifactory.prod.aws.cloud.ihf/artifactory/itau-nf2-maven-snapshot</url>
+                </pluginRepository>
+
+
+                <pluginRepository>
+                    <id>itau-ph5-gradle-release</id>
+                    <name>itau-ph5-gradle-release</name>
+                    <url>https://artifactory.prod.aws.cloud.ihf/artifactory/itau-ph5-gradle-release</url>
+                </pluginRepository>
+
+
+                <pluginRepository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <name>maven-devel</name>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-devel</url>
+                </pluginRepository>
+                <pluginRepository>
+                    <snapshots/>
+                    <id>snapshots</id>
+                    <name>maven-devel</name>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-devel</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <id>artifactory</id>
+        </profile>
+        <profile>
+            <repositories>
+                <repository>
+                    <id>itau-comp-open-maven</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-comp-open-maven</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>itau-comp-open-maven</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/itau-comp-open-maven</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <id>es8-compopen</id>
+        </profile>
+
+        <profile>
+            <id>maven-remote-cache</id>
+            <repositories>
+                <repository>
+                    <id>itau-es8-maven-snapshot</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-remote-cache</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>maven-remote-cache</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf:443/artifactory/maven-remote-cache</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+
+        <profile>
+            <id>maven-jcenter-remote-cache</id>
+            <repositories>
+                <repository>
+                    <id>maven-jcenter-remote-cache</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf/artifactory/maven-jcenter-remote-cache</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>maven-jcenter-remote-cache</id>
+                    <url>https://artifactory.prod.aws.cloud.ihf/artifactory/maven-jcenter-remote-cache</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>central</activeProfile>
+        <activeProfile>maven-devel</activeProfile>
+        <activeProfile>maven-remotes</activeProfile>
+        <activeProfile>itau-ea3-maven-snapshot</activeProfile>
+        <activeProfile>itau.mbi.esb.ea4</activeProfile>
+        <activeProfile>com.itau.ek4.jws</activeProfile>
+        <activeProfile>es8-comp-open</activeProfile>
+
+        <activeProfile>artifactory</activeProfile>
+        <activeProfile>es8-compopen</activeProfile>
+        <activeProfile>maven-remote-cache</activeProfile>
+        <activeProfile>maven-jcenter-remote-cache</activeProfile>
+        <activeProfile>itau-ih2-maven-release</activeProfile>
+    </activeProfiles>
+</settings>
